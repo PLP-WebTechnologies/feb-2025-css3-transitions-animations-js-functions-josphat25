@@ -124,7 +124,7 @@ window.addEventListener("load", triggerAnimation);
 
 # Here’s how the animation is triggered:
 
-   -When the page loads, the triggerAnimation function checks if the animation has already been shown (via localStorage).
+    -When the page loads, the triggerAnimation function checks if the animation has already been shown (via localStorage).
 
     -If not, it triggers the animation and then stores the state in localStorage as "shown".
 
